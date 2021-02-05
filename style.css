@@ -1,0 +1,54 @@
+body {
+  font-family: monospace;
+  background: #ddd;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 2px solid #ff3737;
+}
+
+.main-header {
+  display: flex;
+  padding: 0 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: black;
+  font-size: 48px;
+}
+
+img {
+  width: 500px;
+  display: block;
+  margin: 32px auto;
+}
+
+.doggos {
+  padding: 120px;
+}
+
+.add-doggo {
+  display: inline-block;
+  height: 40px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: crimson;
+  color: #eee;
+}
+
+.add-doggo:hover {
+  background-color: #ff3737;
+  color: white;
+}
+
+.add-doggo:active {
+  background-color: #99000d;
+  color: white;
+}
